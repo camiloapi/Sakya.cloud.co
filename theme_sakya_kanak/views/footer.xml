@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="footer" name="Footer" inherit_id="website.footer_custom">
+        <xpath expr="//div[@id='footer']" position="replace">
+            <div class="oe_structure" id="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="row sidebar">
+                            <aside class="col-xs-12 col-sm-6 col-md-2 widget links">
+                                <div class="title-block">
+                                    <h3 class="title">About Sakya</h3>
+                                </div>
+                                <nav>
+                                    <ul class="list-unstyled" id="products">
+                                        <li><a href="/privacy">Privacy</a></li>
+                                        <li><a href="/team_condition">Term &amp; Condition</a></li>
+                                        <li><a href="/privay_policy">Privacy Policy</a></li>
+                                        <li><a href="/contactus">Contact</a></li>
+                                    </ul>
+                                </nav>
+                            </aside>
+                            <aside class="col-xs-12 col-sm-6 col-md-2 widget links">
+                                <div class="title-block">
+                                    <h3 class="title">Usefull Links</h3>
+                                </div>
+                                <nav>
+                                    <ul class="list-unstyled" id="products">
+                                        <li><a href="/who_are_we">Quienes Somos</a></li>
+                                        <li><a href="/methodology">Metodologia</a></li>
+                                        <li><a href="/support">Soporte</a></li>
+                                        <li><a href="/legal">Legal</a></li>
+                                    </ul>
+                                </nav>
+                            </aside>
+                            <!-- .newsletter -->
+                            <aside class="col-xs-12 col-sm-6 col-md-2 widget links">
+                                <div class="title-block">
+                                    <h3 class="title">Top Providers</h3>
+                                </div>
+                                <nav>
+                                    <ul class="list-unstyled" id="products">
+                                        <li><a target="_blank" href="https://www.odoo.com">Odoo.com</a></li>
+                                        <li><a target="_blank" href="https://www.dropbox.com">Dropbox.com</a></li>
+                                        <li><a target="_blank" href="https://www.google.com/drive/">Google Drive.com</a></li>
+                                        <li><a target="_blank" href="https://www.pcloud.com">Pcloud.com</a></li>
+                                    </ul>
+                                </nav>
+                            </aside>
+                            <aside class="col-xs-12 col-sm-6 col-md-2 widget links">
+                                <div class="title-block">
+                                    <h3 class="title">Blog Category</h3>
+                                </div>
+                                <nav>
+                                    <ul class="list-unstyled" id="products">
+                                        <li><a href="/seo_marketing">SEO &amp; Marketing</a></li>
+                                        <li><a href="/web_design">Web Design</a></li>
+                                        <li><a href="/web_development">Web Development</a></li>
+                                        <li><a href="/web_master">Web Master</a></li>
+                                    </ul>
+                                </nav>
+                            </aside>
+                            <aside class="col-xs-12 col-sm-6 col-md-4 widget social">
+                                <div class="title-block">
+                                    <h3 class="title">Follow Us</h3>
+                                </div>
+                                 <p>Neque porro qulsquam est, qul dolorem
+                                    ipsum quia dolor sit amet. consectetur.
+                                   adipici velit.</p>
+                                <div class="social-list">
+                                    <a t-att-href="website.social_facebook" t-if="website.social_facebook" class="icon rounded icon-facebook"><i class="fa fa-facebook-square" /></a>
+                                    <a t-att-href="website.social_twitter" t-if="website.social_twitter" class="icon rounded icon-twitter"><i class="fa fa-twitter" /></a>
+                                    <a t-att-href="website.social_linkedin" t-if="website.social_linkedin" class="icon rounded icon-linkedin"><i class="fa fa-linkedin" /></a>
+                                    <a t-att-href="website.social_youtube" t-if="website.social_youtube" class="icon rounded icon-youtube"><i class="fa fa-youtube-play" /></a>
+                                    <a t-att-href="website.social_googleplus" t-if="website.social_googleplus" rel="publisher" class="icon rounded icon-google"><i class="fa fa-google-plus-square" /></a>
+                                    <a t-att-href="website.social_github" t-if="website.social_github" class="icon rounded icon-github"><i class="fa fa-github" /></a>
+                                </div>
+                                <t t-call="website.language_selector"/>
+                            </aside>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .footer-top -->
+            <div class="clearfix"></div>
+        </xpath>
+    </template>
+    <template id="website.layout_footer_copyright" inherit_id="website.layout" name="Footer Copyright">
+        <xpath expr="//footer" position="inside">
+         <div class="oe_structure bottom_bg_ft" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 pull-left">
+                        <span>Copyright &amp;copy; 2017 - 2018sakya.com</span>
+                    </div>
+                    <div class="col-md-6 pull-right text-right">
+                         <span>Design and developed by kanakinfosystems LLP.</span>
+                    </div>
+                </div>
+            </div>
+            <!-- .footer-bottom -->
+        </div>
+        </xpath>
+    </template>
+</odoo>

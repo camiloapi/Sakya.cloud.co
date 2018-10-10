@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="theme_customizer" inherit_id="website.assets_frontend" name="Website Theme Customization">
+        <xpath expr="//link[last()]" position="after">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/theme_customizer.css" />
+        </xpath>
+    </template>
+    <template id="website.theme_customize" name="Theme Modal for Customization">
+        <div id="theme_customize_modal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <div class="panel-body">
+                            <h5 class="modal-h5">LAYOUT</h5>
+                            <table name="layout" class="table">
+                                <tr>
+                                    <td class=" text-center" width="50%">
+                                        <label class=" center-block">
+                                            <div class="text-center" style="background-image: url(/theme_default/static/src/img/theme/layout-full.gif); background-size: 100%; line-height: 40px;">FULL WIDTH</div>
+                                            <input name="layoutvar" type="radio" data-xmlid="" />
+                                        </label>
+                                    </td>
+                                    <td class=" text-center">
+                                        <label class=" center-block">
+                                            <div class="text-center" style="background-image: url(/theme_default/static/src/img/theme/layout-boxed.gif); background-size: 100%; line-height: 40px;">BOXED</div>
+                                            <input name="layoutvar" type="radio" data-xmlid="theme_sakya_kanak.option_layout_boxed" />
+                                        </label>
+                                    </td>
+                                </tr>
+                            </table>
+                            <h5 class="modal-h5">MAIN COLOR</h5>
+                            <table name="color" class="table">
+                                <tr>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Black" class="ms-color-box black" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_black" />
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Maroon" class="ms-color-box maroon" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_maroon" />
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Orange" class="ms-color-box orange" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_orange" />
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Sky Blue" class="ms-color-box sky-blue" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_sky_blue" />
+                                        </label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Blue" class="ms-color-box blue" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_blue" />
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Green" class="ms-color-box green" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_green" />
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                           <span alt="Cyan" class="ms-color-box cyan" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_cyan" />
+                                        </label>
+                                    </td>
+                                    <td>
+                                        <label class="chd-color-combi">
+                                            <span alt="Dark Blue" class="ms-color-box dark-blue" />
+                                            <input name="colorvar" type="radio" data-xmlid="theme_sakya_kanak.option_color_dark_blue" />
+                                        </label>
+                                    </td>
+                                </tr>
+                            </table>
+                            <h5 class="modal-h5">FONTS COMBINATIONS</h5>
+                            <table name="font" class="table">
+                                <tr>
+                                    <td width="50%">
+                                        <label>
+                                            <div>
+                                                <span style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px">Helvetica</span>
+                                                <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:11px">/ Georgia</span>
+                                            </div>
+                                            <input name="theme" type="radio" data-xmlid="" />
+                                        </label>
+                                    </td>
+                                    <td width="50%">
+                                        <label>
+                                            <div>
+                                                <span style="font-family:Georgia, 'Times New Roman', Times, serif; font-size:11px">Georgia</span>
+                                                <span style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px">/ Helvetica</span>
+                                                <input name="theme" type="radio" data-xmlid="theme_sakya_kanak.option_font" />
+                                            </div>
+                                        </label>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="option_layout_boxed" name="option_layout_boxed" inherit_id="website.assets_frontend" active="False" customize_show="False">
+        <xpath expr="." position="inside">
+            <link href="/theme_sakya_kanak/static/src/less/option_layout_boxed.less" rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+    <template id="option_color_black" name="option_color_black" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/pages.css" />
+        </xpath>
+    </template>
+    <template id="option_color_maroon" name="option_color_maroon" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/home-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_color_orange" name="option_color_orange" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/elements-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_color_sky_blue" name="option_color_sky_blue" inherit_id="theme_sakya_kanak.assets_frontend" active="True" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/pages-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_color_blue" name="option_color_blue" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/shop-2-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_color_green" name="option_color_green" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/shop-5-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_color_cyan" name="option_color_cyan" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/shop-6-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_color_dark_blue" name="option_color_dark_blue" inherit_id="theme_sakya_kanak.assets_frontend" active="False" customize_show="False">
+        <xpath expr="//link[last()]" position="inside">
+            <link rel="stylesheet" href="/theme_sakya_kanak/static/src/css/customizer/shop-pages-customizer.css" />
+        </xpath>
+    </template>
+    <template id="option_font" name="option_font" inherit_id="website.assets_frontend" active="False" customize_show="False">
+        <xpath expr="." position="inside">
+            <link href="/theme_sakya_kanak/static/src/less/option_font.less" rel="stylesheet" type="text/less" />
+        </xpath>
+    </template>
+</odoo>

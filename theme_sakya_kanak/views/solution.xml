@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="sakya_homepage" name="benifites" inherit_id="theme_sakya_kanak.sakya_solution">
+        <xpath expr="//div[@id='wrap']" position="inside">
+            <div id="wrap" class="oe_structure benifites_page_cl">
+                <div class="oe_structure"/>
+                <section class="hm_header_title parallax s_parallax_slider oe_custom_bg oe_img_bg"
+                         style="background-image: url(/theme_sakya_kanak/static/src/img/about-bg-1.jpg);"
+                        data-scroll-background-ratio="1.6">
+                        <span class=""></span>
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="text-center" data-appear-animation="fadeInDown">
+                                    <h1 class="title mt64">Nuestras Soluciones</h1><br/>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <div class="oe_structure"/>
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="text-center" data-appear-animation="fadeInDown">
+                            <p class="mt32">Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="oe_structure"/>
+                <section>
+                    <div class="container mt32">
+                        <div class="col-md-6 mt32" data-appear-animation="fadeInLeft">
+                            <h1 class="mb4 had001">Electronic Invoice</h1>
+                            <br/>
+                            <p style="text-align:justify">
+                                Intuitive Application for invoicing Management (creation, edition, and issuance)<br/>Tool designed to comply the Decree 2242 of 2015.<br/>
+                                Short Term Start-Up<br/>
+                                Accounting Reports (Balance Sheet + Cash Flow + P&amp;L + Among Others)<br/>
+                                Tax Reports adjusted to Colombian Legislation.<br/><br/>
+                                <a class="text_color_sakya" href="/electronic_invoice">Do you want to know more?</a>
+                            </p>
+                        </div>
+                        <div class="col-md-6" data-appear-animation="fadeInRight">
+                            <img src="/theme_sakya_kanak/static/src/img/top-img.png" width="100%" height="100%"/>
+                        </div>
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+                <section class="parallax s_parallax_slider oe_custom_bg oe_img_bg mt32"
+                         style="background-image: url(/theme_sakya_kanak/static/src/img/paralex-img.png);"
+                        data-scroll-background-ratio="1.6">
+                        <span class="parallax_benifits_sl"></span>
+                        <div>
+                            <div>
+                                <div class="oe_structure">
+                                    <div id="myQuoteCarousel" class="carousel slide" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators mb0">
+                                            <li data-target="#myQuoteCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myQuoteCarousel" data-slide-to="1"></li>
+                                            <li data-target="#myQuoteCarousel" data-slide-to="2"></li>
+                                            <li data-target="#myQuoteCarousel" data-slide-to="3"></li>
+                                            <li data-target="#myQuoteCarousel" data-slide-to="4"></li>
+                                        </ol>
+                                        <div class="carousel-inner solution_slider_ppj">
+
+                                            <div class="item text_only active">
+                                                <div class="container">
+                                                    <div class="col-md-5 bg-white">
+                                                        <img src="/theme_sakya_kanak/static/src/img/so_sl_001.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">Commercial Management</h1>
+                                                        <h3>From leads to loyal customers</h3>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting
+                                                        </p>
+                                                        <a class="text_color_sakya_at" href="/commercial_management">Want to know more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item text_only">
+                                                <div class="container">
+                                                    <div class="col-md-5 bg-white">
+                                                        <img src="/theme_sakya_kanak/static/src/img/so_sl_004.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">Physical Store</h1>
+                                                        <h3>From leads to loyal customers</h3>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting
+                                                        </p>
+                                                       
+                                                        <a class="text_color_sakya_at" href="/physical_store">Want to know more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item text_only">
+                                                <div class="container">
+                                                    <div class="col-md-5 bg-white">
+                                                        <img src="/theme_sakya_kanak/static/src/img/so_sl_005.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">eCommerce</h1>
+                                                        <h3>Your store everywhere and at every time</h3>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting
+                                                        </p>
+                                                        
+                                                        <a class="text_color_sakya_at" href="/ecommerce">Want to know more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item text_only">
+                                                <div class="container">
+                                                    <div class="col-md-5 bg-white">
+                                                        <img src="/theme_sakya_kanak/static/src/img/so_sl_002.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">Manufacturing</h1>
+                                                        <h3>Improve production and control your costs</h3>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting
+                                                        </p>
+                                                        
+                                                        <a class="text_color_sakya_at" href="/manufacturing">Want to know more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="item text_only">
+                                                <div class="container">
+                                                    <div class="col-md-5 bg-white">
+                                                        <img src="/theme_sakya_kanak/static/src/img/so_sl_003.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">Project Management</h1>
+                                                        <h3>Control Resources and Improve Profitability</h3>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting
+                                                        </p>
+                                                        <a class="text_color_sakya_at" href="/project_management">Want to know more</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+                <div class="oe_structure"/>
+                <section class="mb32">
+                    <div class="container mt32">
+                        <div class="col-md-6 mt32" data-appear-animation="fadeInRight">
+                            <h1 class="mb4 had001">Methodology</h1>
+                            <p style="text-align:justify">
+                                <br/>
+                                <strong>Teach :</strong> At Sakya we offer unique market perspectives, alternatives and consulting services that allow us to define the real challenges of our clients.<br/><br/>
+                                <strong>Adapt :</strong> Apply proven concepts to the characteristics of the market and industry of our customers.<br/><br/>
+                                <strong>Take Control :</strong> Execution with work methodologies that guarantee compliance with expectations. We base the success of our clients on "Small Victories".<br/>
+                                
+                            </p>
+                        </div>
+                        <div class="col-md-6" data-appear-animation="fadeInLeft">
+                            <img src="/theme_sakya_kanak/static/src/img/top-img.png" width="100%" height="100%"/>
+                        </div>     
+                    </div>
+                </section>
+                <div class="oe_structure"/>
+            </div>
+        </xpath>
+    </template>
+</odoo>

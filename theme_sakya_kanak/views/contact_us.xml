@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <template id="website.contactus" name="Contact us">
+    <t t-call="website.layout">
+      <section class="hm_header_title parallax s_parallax_slider oe_custom_bg oe_img_bg"
+                         style="background-image: url(/theme_sakya_kanak/static/src/img/about-bg-1.jpg);"
+                        data-scroll-background-ratio="1.6">
+              <span class=""></span>
+              <div class="container">
+                  <div class="col-md-12">
+                      <div class="text-center" data-appear-animation="fadeInDown">
+                          <h1 class="title mt64">Contact Us</h1><br/>
+                      </div>
+                  </div>
+              </div>
+      </section>
+      <div class="clearfix"/>
+      <section id="main" class="contactus">
+        <header class="text-center animated fadeInDown" data-appear-animation="fadeInDown">
+          <div class="container">
+            <h1 class="title mt32">Quick Contact</h1>
+          </div>
+        </header>
+        <div class="oe_structure"/>
+        <section class="container form-box">
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <div class="text-center mt64" name="mail_button">
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="oe_structure"/>
+         <div class="oe_structure"/>
+        <section id="contact_us" class="mt32 oe_structure">
+         <div class="container">
+           <div class="row">
+             <div class="col-sm-12 col-md-4 col-lg-4">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-map-marker fa-4x big-icon" aria-hidden="true"></i>
+                    <h4 class="card-heading">Address</h4>
+                    <div>
+                    <span>1725 Slough Ave.</span>
+                    <br/>
+                      <span>Scranton</span>
+                      <span>18540</span>
+                      <br/>
+                      <span>Pennsylvania</span>
+                      <span>Estados Unidos</span>
+                      <br/>
+                  </div>
+                  </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-4 col-lg-4">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-phone fa-4x big-icon" aria-hidden="true"></i>
+                    <h4 class="card-heading">Phones</h4>
+                    <div>
+                      +1 555 123 8069
+                      <br/>
+                      <span>or</span>
+                      <br/>
+                      +1 555 123 8069
+                    </div>
+                  </div>
+                </div>
+             </div>
+             <div class="col-sm-12 col-md-4 col-lg-4">
+               <div class="card border-0">
+                  <div class="card-body text-center">
+                    <i class="fa fa-envelope fa-4x big-icon" aria-hidden="true"></i>
+                    <h4 class="card-heading">Email</h4>
+                    <div>Support: <a href="mailto:support@example.com">support@example.com</a></div>
+                    <div>Sales manager: <a href="mailto:manager@example.com">manager@example.com</a></div>
+                    <div>Director: <a href="mailto:chief@example.com">chief@example.com</a></div>
+                  </div>
+                </div>
+             </div>
+           </div>
+         </div>
+        </section>
+        <div class="clearfix mb32"/>
+      </section>
+    </t>
+  </template>
+  <template id="website_crm.contactus_form" name="Contact Form" inherit_id="website.contactus" customize_show="True">
+    <xpath expr="//div[@name='mail_button']" position="replace">
+      <form action="/website_form/" method="post" data-model_name="crm.lead" data-success_page="/contactus-thank-you" class="s_website_form form-box register-form contact-form" enctype="multipart/form-data">
+        <div class="col-md-4" id="my-group">
+          <div class="form-group form-field o_website_form_required_custom">
+            <label class="control-label" for="contact_name">Your Name</label>
+            <div>
+              <input type="text" class="form-control o_website_form_input" name="contact_name" t-att-value="request.params.get('contact_name', '')" required="" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="my-group">
+          <div class="form-group form-field">
+            <label class="control-label" for="phone">Phone Number</label>
+            <div>
+              <input type="text" class="form-control o_website_form_input" name="phone" t-att-value="request.params.get('phone', '')" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="my-group">
+          <div class="form-group form-field o_website_form_required_custom">
+            <label class="control-label" for="email_from">Email</label>
+            <div>
+              <input type="text" class="form-control o_website_form_input" name="email_from" required="" t-att-value="request.params.get('email_from', '')" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="my-group">
+          <div class="form-group form-field o_website_form_required_custom">
+            <label class="control-label" for="partner_name">Your Company</label>
+            <div>
+              <input type="text" class="form-control o_website_form_input" name="partner_name" required="" t-att-value="request.params.get('partner_name', '')" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="my-group">
+          <div class="form-group form-field o_website_form_required">
+            <label class="control-label" for="service">Services</label>
+            <div>
+              <select class="form-control" name="service">
+                <option value="Web Designing">Web Designing</option>
+                <option value="Odoo Developer">Odoo Developer</option>
+                <option value="Back-end Developer">Back-end Developer </option>
+                <option value="Mobile Apps">Mobile Apps</option>
+                <option value="Designing Job">Job</option>
+                <option value="Any Other">Any Other</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" id="my-group">
+          <div class="form-group form-field o_website_form_required">
+            <label class="control-label" for="name">Subject</label>
+            <div>
+              <input type="text" class="form-control o_website_form_input" name="name" required="" t-att-value="request.params.get('name', '')" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12" id="my-group">
+          <div class="form-group form-field o_website_form_required_custom">
+            <label class="control-label" for="description">Your Question</label>
+            <div>
+              <textarea class="form-control o_website_form_input" name="description" required="">
+                <t t-esc="request.params.get('description', '')" />
+              </textarea>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-12 text-center" id="my-group">
+          <div class="form-group">
+            <div>
+              <span class="btn btn-default btn-lg o_website_form_send">Submit</span>
+              <span id="o_website_form_result"></span>
+            </div>
+          </div>
+        </div>
+      </form>
+    </xpath>
+  </template>
+</odoo>

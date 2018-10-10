@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+	<template id="s_rs_slider_full_width" name="RS Slider Full width">
+        <section>
+            <div class="slider rs-slider full-width load">
+                <div class="tp-banner-container" contentEditable="false">
+                    <div class="rev_slider tp-banner">
+                        <ul>
+                        	<li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                                <div class="elements slider">
+                                	<div class="tp-caption" data-x="126" data-y="180" data-start="2000" data-transform_in="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 100%;s:700;e:Power4.easeOut" data-transform_out="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0;scaleY:0;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 100%;s:500;e:Power1.easeIn" style="z-index: 2">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/laptop.png" width="217" height="172" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="14" data-y="271" data-start="700" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/c1.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="12" data-y="357" data-start="700" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <p>Create Invoice</p>
+                                    </div>
+                                    <div class="tp-caption" data-x="14" data-y="147" data-start="1000" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/c2.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="9" data-y="233" data-start="1000" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <p>E- Invoice Sent</p>
+                                    </div>
+                                    <div class="tp-caption" data-x="142" data-y="50" data-start="1200" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/c3.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="123" data-y="135" data-start="1200" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <p>E- Invoice Received</p>
+                                    </div>
+                                    <div class="tp-caption" data-x="342" data-y="47" data-start="1400" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/c4.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="337" data-y="136" data-start="1400" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <p>Electronic Record</p>
+                                    </div>
+                                    <div class="tp-caption" data-x="504" data-y="152" data-start="1500" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/c5.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="499" data-y="240" data-start="1500" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <p class="text-center">Income to Financial<br/>
+                                        	Statement
+                                    	</p>
+                                    </div>
+                                    <div class="tp-caption" data-x="520" data-y="289" data-start="1600" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/c6.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <div class="tp-caption" data-x="536" data-y="374" data-start="1600" data-transform_in="y:top;s:1000;e:Power4.easeOut;" data-transform_out="y:top;s:500;e:Power1.easeOut">
+                                        <p>Payment</p>
+                                    </div>
+                                    <h2 class="tp-caption skewtotop title" data-x="750" data-y="101" data-start="1700" data-transform_in="y:top;s:1000;e:Power4.easeOut" data-transform_out="y:top;s:500;e:Power1.easeIn">
+                                            <strong>DIY</strong>
+                                        </h2>
+                                    <div class="tp-caption lfr skewtoright description" data-x="729" data-y="189" data-start="1500" data-transform_in="x:right;s:1000;e:Power4.easeOut" data-transform_out="x:right;s:500;e:Power1.easeIn" style="max-width: 480px">
+                                        <p>We added <strong>more than 80 items</strong> to the standard page design. You can form the page yourself by placing any information you want – graphs, tables, buttons, slides, animated content, maps and so on.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-default cherry tp-caption" data-x="750" data-y="342" data-start="1700" data-transform_in="y:bottom;s:1000;e:Power4.easeOut" data-transform_out="y:bottom;s:500;e:Power1.easeIn">
+                                                Read more
+                                            </a>
+                                </div>
+                                <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/bg.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                            </li>
+                            <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                                <div class="elements">
+                                	<div class="tp-caption" data-x="650" data-y="20" data-start="1000" data-transform_in="x:right;s:1000;e:Power4.easeOut" data-transform_out="x:right;s:500;e:Power1.easeIn">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/mobile2.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <h2 class="tp-caption skewtotop title" data-x="60" data-y="101" data-start="1700" data-transform_in="y:top;s:1000;e:Power4.easeOut" data-transform_out="y:top;s:500;e:Power1.easeIn">
+                                                <strong>DIY</strong>
+                                            </h2>
+                                    <div class="tp-caption lfr skewtoright description" data-x="50" data-y="189" data-start="1500" data-transform_in="x:right;s:1000;e:Power4.easeOut" data-transform_out="x:right;s:500;e:Power1.easeIn" style="max-width: 480px">
+                                        <p>We added <strong>more than 80 items</strong> to the standard page design. You can form the page yourself by placing any information you want – graphs, tables, buttons, slides, animated content, maps and so on.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-default cherry tp-caption" data-x="60" data-y="342" data-start="1700" data-transform_in="y:bottom;s:1000;e:Power4.easeOut" data-transform_out="y:bottom;s:500;e:Power1.easeIn">
+                                                Read more
+                                    </a>
+                                </div>
+                                <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/bg1.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                            </li>
+                            <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                                <div class="elements">
+                                	<div class="tp-caption" data-x="520" data-y="20" data-start="1000" data-transform_in="x:right;s:1000;e:Power4.easeOut" data-transform_out="x:right;s:500;e:Power1.easeIn">
+                                        <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/laptop-mail.png" width="71" height="104" alt="" />
+                                    </div>
+                                    <h2 class="tp-caption skewtotop title" data-x="60" data-y="101" data-start="1700" data-transform_in="y:top;s:1000;e:Power4.easeOut" data-transform_out="y:top;s:500;e:Power1.easeIn">
+                                                <strong>DIY</strong>
+                                            </h2>
+                                    <div class="tp-caption lfr skewtoright description" data-x="50" data-y="189" data-start="1500" data-transform_in="x:right;s:1000;e:Power4.easeOut" data-transform_out="x:right;s:500;e:Power1.easeIn" style="max-width: 480px">
+                                        <p>We added <strong>more than 80 items</strong> to the standard page design. You can form the page yourself by placing any information you want – graphs, tables, buttons, slides, animated content, maps and so on.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-default cherry tp-caption" data-x="60" data-y="342" data-start="1700" data-transform_in="y:bottom;s:1000;e:Power4.easeOut" data-transform_out="y:bottom;s:500;e:Power1.easeIn">
+                                                Read more
+                                    </a>
+                                </div>
+                                <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/bg2.png" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                            </li>
+                            <li data-delay="7000" data-transition="fade" data-slotamount="7" data-masterspeed="2000">
+                                <div class="elements">
+                                	<h2 class="tp-caption skewtotop title" data-x="750" data-y="101" data-start="1700" data-transform_in="y:top;s:1000;e:Power4.easeOut" data-transform_out="y:top;s:500;e:Power1.easeIn">
+                                            <strong>DIY</strong>
+                                        </h2>
+                                    <div class="tp-caption lfr skewtoright description" data-x="729" data-y="189" data-start="1500" data-transform_in="x:right;s:1000;e:Power4.easeOut" data-transform_out="x:right;s:500;e:Power1.easeIn" style="max-width: 480px">
+                                        <p>We added <strong>more than 80 items</strong> to the standard page design. You can form the page yourself by placing any information you want – graphs, tables, buttons, slides, animated content, maps and so on.</p>
+                                    </div>
+                                    <a href="#" class="btn btn-default cherry tp-caption" data-x="750" data-y="342" data-start="1700" data-transform_in="y:bottom;s:1000;e:Power4.easeOut" data-transform_out="y:bottom;s:500;e:Power1.easeIn">
+                                                Read more
+                                            </a>
+                                </div>
+                                <img class="replace-2x" src="/theme_sakya_kanak/static/src/img/hm_slider/banner-2.jpg" alt="" data-bgfit="cover" data-bgposition="center top" data-bgrepeat="no-repeat" />
+                            </li>
+	                    </ul>
+	                    <div class="tp-bannertimer"></div>
+                    </div>
+                    <!-- .tp-banner -->
+                </div>
+            </div>
+            <!-- .rs-slider -->
+        </section>
+    </template>
+    <template id="s_sakya_block_one" name="left img right text">
+    	<section>
+        		<div class="container">
+        			<div class="row">
+        			<div class="col-md-4" data-appear-animation="fadeInLeft">
+        				<img src="/theme_sakya_kanak/static/src/img/side_images.jpg" width="100%" height="100%"/>
+        			</div>
+        			<div class="col-md-8" data-appear-animation="fadeInRight">
+        				<h2 class="mt32 mb4">Lorem Ipsum is simply dummy text printing and typesetting.</h2>
+        				<p>
+        					Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting
+        				</p>
+        				<a href="#" class="btn btn-default text-white">Read More</a>
+        			</div>
+        			</div>
+        		</div>
+        	</section>
+    </template>
+    <template id="s_shop_recommended_product_one" name="Service Block">
+    	<section class="service_sakya_bk">
+        		<div class="container">
+	              <div class="carousel-box  load overflow" data-autoplay-disable="true">
+	              	<div class="row">
+	              		<div class="col-md-12">
+			                <div class="title-box no-margin">
+			                  <a class="next" href="#">
+			                    <svg x="0" y="0" width="9px" height="16px" viewBox="0 0 9 16" enable-background="new 0 0 9 16" xml:space="preserve">
+			                      <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#fcfcfc" points="1,0.001 0,1.001 7,8 0,14.999 1,15.999 9,8 "></polygon>
+			                    </svg>
+			                  </a>
+			                  <a class="prev" href="#">
+			                    <svg x="0" y="0" width="9px" height="16px" viewBox="0 0 9 16" enable-background="new 0 0 9 16" xml:space="preserve">
+			                      <polygon fill-rule="evenodd" clip-rule="evenodd" fill="#fcfcfc" points="8,15.999 9,14.999 2,8 9,1.001 8,0.001 0,8 "></polygon>
+			                    </svg>
+			                  </a>
+			                  <h2 class="title">Services</h2>
+			                </div>
+		            	</div>
+	            	</div>
+	                <div class="clearfix"></div>
+	                <div class="row">
+	                  <div class="carousel products">
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-11.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">Sony Led TV KDL-46HX853</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">Sony Led TV KDL-46HX853</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-11.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                          	<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                        </div>
+	                      </div>
+	                    </div>
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-12.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">Sony 3D TV KD3-46H853</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">Sony 3D TV KD3-46H853</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-12.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                          	
+	                          		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                        	
+	                        </div>
+	                      </div>
+	                    </div>
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-13.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">Projector VPL-VW95ES</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">Projector VPL-VW95ES</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-13.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        
+	                       <div class="actions">
+	                      		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                    	</div>
+	                        
+	                      </div>
+	                    </div>
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-14.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">XA700 Wireless speaker</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">XA700 Wireless speaker</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-14.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                           
+	                          		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                        	
+	                        </div>
+	                        <!-- .actions -->
+	                      </div>
+	                      <!-- .product-hover -->
+	                    </div>
+	                    <!-- .product -->
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-5.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#"> 800 Series Diamond</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#"> 800 Series Diamond</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-5.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                         	
+	                          		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                        	
+	                        </div>
+	                        <!-- .actions -->
+	                      </div>
+	                      <!-- .product-hover -->
+	                    </div>
+	                    <!-- .product -->
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-6.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">AirPlay Hi-Fi system</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">AirPlay Hi-Fi system</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-6.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                          	
+	                          		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                       
+	                        </div>
+	                        <!-- .actions -->
+	                      </div>
+	                      <!-- .product-hover -->
+	                    </div>
+	                    <!-- .product -->
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-7.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">Sony Xperia Z</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">Sony Xperia Z</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-7.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                           
+	                          		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                      
+	                        </div>
+	                        <!-- .actions -->
+	                      </div>
+	                      <!-- .product-hover -->
+	                    </div>
+	                    <!-- .product -->
+	                    <div class="col-sm-3 col-md-3 product rotation">
+	                      <div class="default">
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-8.jpg" alt="" title="" width="270" height="270" />
+	                        </a>
+	                        <div class="product-description">
+	                          <div class="vertical">
+	                            <h3 class="product-name">
+	                                                          <a href="#">Xperia miro</a>
+	                                                        </h3>
+	                            <div class="price"></div>
+	                          </div>
+	                        </div>
+	                      </div>
+	                      <div class="product-hover">
+	                        <h3 class="product-name">
+	                                                  <a href="#">Xperia miro</a>
+	                                                </h3>
+	                        <div class="price"></div>
+	                        <a href="#" class="product-image">
+	                          <img class="replace-2x" src="/theme_sakya_kanak/static/src/content/img/product-8.jpg" alt="" title="" width="70" height="70" />
+	                        </a>
+	                        <ul>
+	                          <li>117 cm / 46"LCD TV</li>
+	                          <li>Full HD 3D &amp; 2D</li>
+	                          <li>Sony Internet TV</li>
+	                          <li>Dynamic Edge LED</li>
+	                          <li>1X-Reality PRO</li>
+	                        </ul>
+	                        <div class="actions">
+	                          	
+	                          		<a class="btn btn-default text-black text-center" href="/contactus">Contact Us</a>
+	                        	
+	                        </div>
+	                        <!-- .actions -->
+	                      </div>
+	                      <!-- .product-hover -->
+	                    </div>
+	                    <!-- .product -->
+	                  </div>
+	                </div>
+	              </div>
+	              <!-- .carousel-box -->
+	              
+	              <!-- .content-block -->
+	            </div>
+        	</section>
+    </template>
+	<template id="s_our_skills" name="Benefites">
+		<section>
+        		<div class="container">
+        			<div class="row">
+        				<div class="col-md-12">
+        					<div class="title-box text-left" data-appear-animation="fadeInDown">
+		                        <h2 class="title">Benefits</h2>
+		            		</div>
+        				</div>
+        			</div>
+	        		
+	        	</div>
+        		<div class="full-width-box cm-padding-bottom-36">
+                            <div class="fwb-bg fwb-paralax band-10" data-speed="2">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+			                        <div class="col-sm-6 col-md-3 progress-circular bottom-padding bottom-padding-mini" data-appear-animation="fadeInLeftBig">
+			                            <input type="text" class="knob" value="0" rel="60" data-linecap="round" data-width="200" data-bgcolor="#f2f2f2" data-fgcolor="#738d00" data-thickness=".15" data-readonly="true" disabled="" />
+			                            <div class="solution_text">Commitment</div>
+			                        </div>
+			                        <div class="col-sm-6 col-md-3 progress-circular bottom-padding bottom-padding-mini" data-appear-animation="bounceInLeft">
+			                            <input type="text" class="knob" value="0" rel="10" data-linecap="round" data-width="200" data-bgcolor="#f2f2f2" data-fgcolor="#c10841" data-thickness=".15" data-readonly="true" disabled="" />
+			                            <div class="solution_text">Honesty</div>
+			                        </div>
+			                        <div class="col-sm-6 col-md-3 progress-circular bottom-padding bottom-padding-mini" data-appear-animation="bounceInRight">
+			                            <input type="text" class="knob" value="0" rel="50" data-linecap="round" data-width="200" data-bgcolor="#f2f2f2" data-fgcolor="#f89406" data-thickness=".15" data-readonly="true" disabled="" />
+			                            <div class="solution_text">Reliabity</div>
+			                        </div>
+			                        <div class="col-sm-6 col-md-3 progress-circular bottom-padding bottom-padding-mini" data-appear-animation="fadeInRightBig">
+			                            <input type="text" class="knob" value="0" rel="95" data-linecap="round" data-width="200" data-bgcolor="#f2f2f2" data-fgcolor="#0098ca" data-thickness=".15" data-readonly="true" disabled="" />
+			                            <div class="solution_text">Support</div>
+			                        </div>
+			                    </div>                              
+                            </div>
+                        </div>
+        	</section>
+	</template>
+	<template id="s_our_block_one_sakya" name="left Img and right Text">
+		<section>
+                    <div class="container mt32">
+                        <div class="col-md-6" data-appear-animation="fadeInLeft">
+                            <img src="/theme_sakya_kanak/static/src/img/top-img.png" width="100%" height="100%"/>
+                        </div>
+                        <div class="col-md-6 mt32" data-appear-animation="fadeInRight">
+                            <h1 class="mb4 had001">Odoo Consulting Services</h1>
+                            <p style="text-align:justify">
+                                Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>
+                                Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text
+                            </p>
+                        </div>
+                    </div>
+                </section>
+	</template>
+	<template id="s_our_blocktwo__sakya" name="right Img and left Text">
+		<section class="mb32">
+                    <div class="container mt32">
+                        <div class="col-md-6 mt32" data-appear-animation="fadeInRight">
+                            <h1 class="mb4 had001">Odoo Consulting Services</h1>
+                            <p style="text-align:justify">
+                                Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>
+                                Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text
+                            </p>
+                        </div>
+                        <div class="col-md-6" data-appear-animation="fadeInLeft">
+                            <img src="/theme_sakya_kanak/static/src/img/top-img.png" width="100%" height="100%"/>
+                        </div>     
+                    </div>
+        </section>
+	</template>
+	<template id="s_our_parallex_slider" name="parallex slider img with text">
+		<section class="parallax s_parallax_slider oe_custom_bg oe_img_bg mt32"
+                         style="background-image: url(/theme_sakya_kanak/static/src/img/paralex-img.png);"
+                        data-scroll-background-ratio="1.6">
+                        <span class="parallax_benifits_sl"></span>
+                        <div>
+                            <div>
+                                <div class="oe_structure">
+                                    <div id="myQuoteCarousel" class="carousel slide mb0" data-interval="10000">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators mb0">
+                                            <li data-target="#myQuoteCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#myQuoteCarousel" data-slide-to="1"></li>
+                                        </ol>
+                                        <div class="carousel-inner">
+
+                                            <div class="item text_only active">
+                                                <div class="container">
+                                                    <div class="col-md-5">
+                                                        <img src="/theme_sakya_kanak/static/src/img/img-2.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">Odoo Consulting Services</h1>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="item text_only">
+                                                <div class="container">
+                                                    <div class="col-md-5">
+                                                        <img src="/theme_sakya_kanak/static/src/img/img-2.png"/>
+                                                    </div>
+                                                    <div class="col-md-7 mt32 text-white" data-appear-animation="fadeInRight">
+                                                        <h1 class="mb4 had001">Odoo Consulting Services</h1>
+                                                        <p style="text-align:justify">
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>
+                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+	</template>
+	<template id="s_page_title_snp" name="Page Title">
+		<section class="hm_header_title parallax s_parallax_slider oe_custom_bg oe_img_bg"
+                         style="background-image: url(/theme_sakya_kanak/static/src/img/about-bg-1.jpg);"
+                        data-scroll-background-ratio="1.6">
+                        <span class=""></span>
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="text-center" data-appear-animation="fadeInDown">
+                                    <h1 class="title mt64">Title</h1><br/>
+                                </div>
+                            </div>
+                        </div>
+                </section>
+	</template>
+    <template id="snippets" inherit_id="website.snippets">
+        <xpath expr="//div[@id='o_scroll']" position="inside">
+        	<div id="snippet_slider" class="o_panel">
+                <div class="o_panel_header">
+                    <i class="fa fa-indent" /> Sakya Snippets
+                </div>
+                <div class="o_panel_body">
+                    <t t-snippet="theme_sakya_kanak.s_rs_slider_full_width" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_rs_slider_full_width.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_sakya_block_one" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_extended_person_block.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_shop_recommended_product_one" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_shop_full_width_banner.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_our_skills" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_our_skills.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_our_block_one_sakya" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_extended_person_block.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_our_blocktwo__sakya" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_simple_person.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_our_parallex_slider" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_slider_caroufredsel.jpg" />
+                    <t t-snippet="theme_sakya_kanak.s_page_title_snp" t-thumbnail="/theme_sakya_kanak/static/src/img/blocks/s_about_us.jpg" />
+                    
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

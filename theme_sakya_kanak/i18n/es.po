@@ -1,0 +1,755 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* theme_sakya_kanak
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 11.0+e-20171004\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-02 04:56+0000\n"
+"PO-Revision-Date: 2018-10-02 04:56+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "&amp;mdash;"
+msgstr "&amp;mdash;"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "117 cm / 46\"LCD TV"
+msgstr "117 cm / 46\"LCD TV"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "1X-Reality PRO"
+msgstr "1X-Reality PRO"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "800 Series Diamond"
+msgstr "800 Series Diamond"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "<br/>\n"
+"                                <strong>Teach :</strong> At Sakya we offer unique market perspectives, alternatives and consulting services that allow us to define the real challenges of our clients.<br/><br/>\n"
+"                                <strong>Adapt :</strong> Apply proven concepts to the characteristics of the market and industry of our customers.<br/><br/>\n"
+"                                <strong>Take Control :</strong> Execution with work methodologies that guarantee compliance with expectations. We base the success of our clients on \"Small Victories\".<br/>"
+msgstr "<br/>\n"
+"                                <strong>Teach :</strong> At Sakya we offer unique market perspectives, alternatives and consulting services that allow us to define the real challenges of our clients.<br/><br/>\n"
+"                                <strong>Adapt :</strong> Apply proven concepts to the characteristics of the market and industry of our customers.<br/><br/>\n"
+"                                <strong>Take Control :</strong> Execution with work methodologies that guarantee compliance with expectations. We base the success of our clients on \"Small Victories\".<br/>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Adapting to you unique Business Needs</strong>"
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Adaptando a las necesidades únicas del negocio</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Best Practices of the Market</strong>"
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Las mejores practicas del mercado.</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Change Management and Growth Mindset</strong>"
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Gestión del cambio y mentalidad para el crecimiento.</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Return on Investment of improving your processes</strong>"
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Retorno de inversión por la mejora de los procesos.</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Taking control of your Future</strong>"
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Tomando el control del futuro</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Teaching for Differentiation</strong>"
+msgstr "<i class=\"fa fa-check\" aria-hidden=\"true\"/>\n"
+"	                                    	<strong>Enseñando para diferenciarnos</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.custome_top_navbar
+msgid "<i class=\"fa fa-home\"/> My Home"
+msgstr "<i class=\"fa fa-home\"/> My Home"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.snippets
+msgid "<i class=\"fa fa-indent\"/> Sakya Snippets"
+msgstr "<i class=\"fa fa-indent\"/> Sakya Snippets"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.custome_top_navbar
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.simple_navbar_header_1
+msgid "<i class=\"fa fa-lock\"/> Log in"
+msgstr "<i class=\"fa fa-lock\"/> Log in"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.custome_top_navbar
+msgid "<i class=\"fa fa-shopping-cart\"/> My cart"
+msgstr "<i class=\"fa fa-shopping-cart\"/> My cart"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.custome_top_navbar
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.simple_navbar_header_1
+msgid "<i class=\"fa fa-unlock-alt\"/> Logout"
+msgstr "<i class=\"fa fa-unlock-alt\"/> Logout"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.custome_top_navbar
+msgid "<i class=\"fa fa-user\"/> My Account"
+msgstr "<i class=\"fa fa-user\"/> My Account"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<small class=\"abts_001\">\n"
+"        					<span>s</span>\n"
+"        					<span class=\"ab\">A</span>\n"
+"        					<span>K</span>\n"
+"        					<span>Y</span>\n"
+"        					<span class=\"ab\">A</span>\n"
+"        				</small> is a synonym of able, possible, practicable and capable of being. Characteristics that describe perfectly the customer promise delivered by a group former Technical Consultants and Business Advisors of <span class=\"odoo\">O</span>doo."
+msgstr "<small class=\"abts_001\">\n"
+"        					<span>s</span>\n"
+"        					<span class=\"ab\">A</span>\n"
+"        					<span>K</span>\n"
+"        					<span>Y</span>\n"
+"        					<span class=\"ab\">A</span>\n"
+"        				</small> is a synonym of able, possible, practicable and capable of being. Characteristics that describe perfectly the customer promise delivered by a group former Technical Consultants and Business Advisors of <span class=\"odoo\">O</span>doo."
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.custome_top_navbar
+msgid "<span class=\"hidden-xs\">Currency</span><span class=\"visible-xs\">Curr</span>:"
+msgstr "<span class=\"hidden-xs\">Currency</span><span class=\"visible-xs\">Curr</span>:"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.simple_navbar_header_1
+msgid "<span class=\"text\">Menu</span>\n"
+"                                                <span class=\"icon-bar\"/>\n"
+"                                                <span class=\"icon-bar\"/>\n"
+"                                                <span class=\"icon-bar\"/>"
+msgstr "<span class=\"text\">Menu</span>\n"
+"                                                <span class=\"icon-bar\"/>\n"
+"                                                <span class=\"icon-bar\"/>\n"
+"                                                <span class=\"icon-bar\"/>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.simple_navbar_header_1
+msgid "<span class=\"title\">Call Us</span>"
+msgstr "<span class=\"title\">Call Us</span>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.simple_navbar_header_1
+msgid "<span>close</span>×"
+msgstr "<span>close</span>×"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;POS | e Commerce | sales</strong>"
+msgstr "<strong>Punto de Venta / Comercio Electrónico / Ventas Directas</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<strong>&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Manufeturing | Projects | CMS</strong>"
+msgstr "<strong>Manufactura / Proyectos / Gestión de Documentos</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+msgid "<strong>DIY</strong>"
+msgstr "<strong>DIY</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<strong>Digital Transformation</strong>"
+msgstr "<strong>Transformación Digital</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<strong>Electronic Invoice</strong>"
+msgstr "<strong>FACTURA ELECTRÓNICA</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "<strong>Inventory | Warehouse | Purchase</strong>"
+msgstr "<strong>Inventario | Bodegaje | Compras</strong>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "About Sakya"
+msgstr "About Sakya"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Adapting to Business Needs"
+msgstr "Adapting to Business Needs"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "AirPlay Hi-Fi system"
+msgstr "AirPlay Hi-Fi system"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "BENEFICIOS"
+msgstr "BENEFICIOS"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_skills
+msgid "Benefits"
+msgstr "Benefits"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Blog Category"
+msgstr "Blog Category"
+
+#. module: theme_sakya_kanak
+#: model:ir.model,name:theme_sakya_kanak.model_blog_post
+msgid "Blog Post"
+msgstr "Entrada del blog"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Commercial Management"
+msgstr "Commercial Management"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_skills
+msgid "Commitment"
+msgstr "Commitment"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Compliance with law 2242 of 2015"
+msgstr "Compliance with law 2242 of 2015"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Contact Us"
+msgstr "Contáctenos"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Contact us"
+msgstr "Contáctenos"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Control Resources and Improve Profitability"
+msgstr "Control Resources and Improve Profitability"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Covering all business areas"
+msgstr "Covering all business areas"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Create Invoice"
+msgstr "Crear factura"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Create, edit and issue invoices"
+msgstr "Create, edit and issue invoices"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Customize your formats"
+msgstr "Customize your formats"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Digital Transformation"
+msgstr "Digital Transformation"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Do you want to know more?"
+msgstr "Do you want to know more?"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Dropbox.com"
+msgstr "Dropbox.com"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Dynamic Edge LED"
+msgstr "Dynamic Edge LED"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "E- Invoice Received"
+msgstr "&nbsp;&nbsp;eFactura Recibida"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "E- Invoice Sent"
+msgstr "eFactura Enviada"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "ERP Operative Savings"
+msgstr "Ahorro en Costos Operativos"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Ecommerce"
+msgstr "Ecommerce"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Electronic Invoice"
+msgstr "Electronic Invoice"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Electronic Record"
+msgstr "Registro Electrónico"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Follow Us"
+msgstr "Follow Us"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "From leads to loyal customers"
+msgstr "From leads to loyal customers"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Full HD 3D &amp; 2D"
+msgstr "Full HD 3D &amp; 2D"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Generate Accounting reports"
+msgstr "Generate Accounting reports"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Google Drive.com"
+msgstr "Google Drive.com"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Grow by demand"
+msgstr "Grow by demand"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_skills
+msgid "Honesty"
+msgstr "Honesty"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Improve production and control your costs"
+msgstr "Improve production and control your costs"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Income to Financial<br/>\n"
+"	                                        	Statement"
+msgstr "&nbsp;Ingreso a Estados <br/>Contables\n"
+"	                                        	"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+msgid "Income to Financial<br/>\n"
+"                                        	Statement"
+msgstr "&nbsp;Ingreso a Estados <br/>Contables \n"
+"                                        	"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Intuitive Application for invoicing Management (creation, edition, and issuance)<br/>Tool designed to comply the Decree 2242 of 2015.<br/>\n"
+"                                Short Term Start-Up<br/>\n"
+"                                Accounting Reports (Balance Sheet + Cash Flow + P&amp;L + Among Others)<br/>\n"
+"                                Tax Reports adjusted to Colombian Legislation.<br/><br/>"
+msgstr "Intuitive Application for invoicing Management (creation, edition, and issuance)<br/>Tool designed to comply the Decree 2242 of 2015.<br/>\n"
+"                                Short Term Start-Up<br/>\n"
+"                                Accounting Reports (Balance Sheet + Cash Flow + P&amp;L + Among Others)<br/>\n"
+"                                Tax Reports adjusted to Colombian Legislation.<br/><br/>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Invoicing time saved"
+msgstr "Disminución en Tiempos de Facturación"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Legal"
+msgstr "Legal"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum"
+msgstr "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_sakya_block_one
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting"
+msgstr "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_parallex_slider
+msgid "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>\n"
+"                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text"
+msgstr "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>\n"
+"                                                            Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_block_one_sakya
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_blocktwo__sakya
+msgid "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>\n"
+"                                Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text"
+msgstr "Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting<br/><br/>\n"
+"                                Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text printing and typesetting Lorem Ipsum is simply dummy text"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_sakya_block_one
+msgid "Lorem Ipsum is simply dummy text printing and typesetting."
+msgstr "Lorem Ipsum is simply dummy text printing and typesetting."
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Manufacturing"
+msgstr "Manufacturing"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Methodology"
+msgstr "Methodology"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Metodologia"
+msgstr "Metodologia"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Multiple Sales Channels"
+msgstr "Multiple Sales Channels"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "NUESTROS SERVICIOS"
+msgstr "NUESTROS SERVICIOS"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Neque porro qulsquam est, qul dolorem\n"
+"                                    ipsum quia dolor sit amet. consectetur.\n"
+"                                   adipici velit."
+msgstr "Neque porro qulsquam est, qul dolorem\n"
+"                                    ipsum quia dolor sit amet. consectetur.\n"
+"                                   adipici velit."
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "No property Costs"
+msgstr "No property Costs"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+#: model:website.menu,name:theme_sakya_kanak.menu_solution
+msgid "Nuestras Soluciones"
+msgstr "Nuestras Soluciones"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_block_one_sakya
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_blocktwo__sakya
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_parallex_slider
+msgid "Odoo Consulting Services"
+msgstr "Odoo Consulting Services"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Odoo.com"
+msgstr "Odoo.com"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "Our Blogs"
+msgstr "Nuestros blogs"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Payment"
+msgstr "&nbsp;&nbsp;&nbsp;Pago"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Pcloud.com"
+msgstr "Pcloud.com"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Perception in productivity improvement"
+msgstr "Percepción en Mejora de Productividad"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Physical Store"
+msgstr "Physical Store"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Privacy"
+msgstr "Privacidad"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Privacy Policy"
+msgstr "Privacy Policy"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Project Management"
+msgstr "Project Management"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Projector VPL-VW95ES"
+msgstr "Projector VPL-VW95ES"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Quienes Somos"
+msgstr "Quienes Somos"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_sakya_block_one
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Read More"
+msgstr "Read More"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Read more"
+msgstr "Read more"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Reduction of invoicing Costs"
+msgstr "Reducción de costos de facturación"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_skills
+msgid "Reliabity"
+msgstr "Reliabity"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Reporting"
+msgstr "Informes"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "SEO &amp; Marketing"
+msgstr "SEO &amp; Marketing"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.simple_navbar_header_1
+msgid "Search..."
+msgstr "Buscar…"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Services"
+msgstr "Services"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Solutions"
+msgstr "Solutions"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Sony 3D TV KD3-46H853"
+msgstr "Sony 3D TV KD3-46H853"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Sony Internet TV"
+msgstr "Sony Internet TV"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Sony Led TV KDL-46HX853"
+msgstr "Sony Led TV KDL-46HX853"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Sony Xperia Z"
+msgstr "Sony Xperia Z"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Soporte"
+msgstr "Soporte"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_our_skills
+msgid "Support"
+msgstr "Support"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Taking the control of your Future"
+msgstr "Taking the control of your Future"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Teaching unique perspectives"
+msgstr "Teaching unique perspectives"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Term &amp; Condition"
+msgstr "Term &amp; Condition"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_page_title_snp
+msgid "Title"
+msgstr "Título"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage_main
+msgid "Tool designed to comply with Decree 2242 of 2015 <br/>\n"
+"	                                        Intuitive application for billing management (creation, edition, and issuance).<br/>\n"
+"	                                        Reduce Invoicing Times, save operative costs, and optimize traceability of your processes.<br/>"
+msgstr "Herramienta diseñada para dar cumplimiento al Decreto 2242 de 2015<br/>\n"
+"	                                        Aplicación intuitiva para gestión de facturas (creación, edición y emisión).<br/>\n"
+"	                                        Reducción en los tiempos de facturación, ahorro en los costos de operación y optimización la trazabilidad de los procesos.<br/>"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Top Providers"
+msgstr "Top Providers"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "Untitled Post"
+msgstr "Post sin título"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Usefull Links"
+msgstr "Usefull Links"
+
+#. module: theme_sakya_kanak
+#: model:ir.model.fields,field_description:theme_sakya_kanak.field_blog_post_url
+msgid "Video url"
+msgstr "Video url"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Want to know more"
+msgstr "Want to know more"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_rs_slider_full_width
+msgid "We added <strong>more than 80 items</strong> to the standard page design. You can form the page yourself by placing any information you want – graphs, tables, buttons, slides, animated content, maps and so on."
+msgstr "We added <strong>more than 80 items</strong> to the standard page design. You can form the page yourself by placing any information you want – graphs, tables, buttons, slides, animated content, maps and so on."
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Web Design"
+msgstr "Web Design"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Web Development"
+msgstr "Web Development"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.footer
+msgid "Web Master"
+msgstr "Web Master"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "XA700 Wireless speaker"
+msgstr "XA700 Wireless speaker"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.s_shop_recommended_product_one
+msgid "Xperia miro"
+msgstr "Xperia miro"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "Your store everywhere and at every time"
+msgstr "Your store everywhere and at every time"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "comment"
+msgstr "comentario"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "comments"
+msgstr "comentarios"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.sakya_homepage
+msgid "eCommerce"
+msgstr "eCommerce"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "unpublished"
+msgstr "unpublished"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "view"
+msgstr "ver"
+
+#. module: theme_sakya_kanak
+#: model:ir.ui.view,arch_db:theme_sakya_kanak.blog_post_short_sakya
+msgid "views"
+msgstr "vistas"
+

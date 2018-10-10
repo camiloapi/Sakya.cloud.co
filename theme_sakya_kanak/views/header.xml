@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="custome_top_navbar" name="Top User Menu" inherit_id="website.layout" customize_show="True">
+        <xpath expr="//div[@id='wrapwrap']/header" position="before">
+            <div id="top-box">
+                <div class="top-box-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-9 col-sm-5">
+                                <div class="btn-group language btn-select">
+                                </div>
+                                <div class="btn-group currency btn-select">
+                                    <t t-if="website_sale_pricelists">
+                                        <t t-set="website_sale_pricelists" t-value="website.get_pricelist_available(show_visible=True)" />
+                                        <t t-set="curr_pl" t-value="website.get_current_pricelist()" />
+                                        <a href="#" class="dropdown-toggle btn btn-default" role="button" data-toggle="dropdown">
+                                            <span class="hidden-xs">Currency</span><span class="visible-xs">Curr</span>:
+                                            <t t-esc="curr_pl and curr_pl.name or ' - '" />
+                                            <span class="caret"></span>
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li t-foreach="website_sale_pricelists" t-as="pl">
+                                                <a t-att-href="'/shop/change_pricelist/%s' % pl.id">
+                                                    <span class="switcher_pricelist" t-att-data-pl_id="pl.id" t-esc="pl.name" />
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </t>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 col-sm-7">
+                                <div class="navbar navbar-inverse top-navbar top-navbar-right" role="navigation">
+                                    <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".top-navbar .navbar-collapse">
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                        <span class="icon-bar"></span>
+                                    </button>
+                                    <nav class="collapse collapsing navbar-collapse">
+                                        <ul class="nav navbar-nav navbar-right">
+                                            <li><a href="/my/home"><i class="fa fa-home"></i> My Home</a></li>
+                                            <li><a href="/my/account"><i class="fa fa-user"></i> My Account</a></li>
+                                            <t t-if="website_sale_order">
+                                                <t t-set="website_sale_order" t-value="website.sale_get_order()" />
+                                                <li t-att-class="'' if website_sale_order and website_sale_order.cart_quantity else 'hidden'">
+                                                    <a href="/shop/cart">
+                                                        <i class="fa fa-shopping-cart"></i> My cart <span class="count my_cart_quantity"> <t t-esc="website_sale_order and website_sale_order.cart_quantity or ''" /></span>
+                                                    </a>
+                                                </li>
+                                            </t>
+                                            <li groups="base.group_public">
+                                                <a t-attf-href="/web/login">
+                                                    <i class="fa fa-lock"></i> Log in
+                                                </a>
+                                            </li>
+                                            <!---TODO : FIX in Mobile View-->
+                                            <div class="btn-group currency btn-select" t-ignore="true" t-if="website.user_id != user_id" style="margin-top:7px;">
+                                                <a class="btn dropdown-toggle btn-default" role="button" data-toggle="dropdown" href="#">
+                                                    <span t-esc="(len(user_id.name)&gt;25) and (user_id.name[:23]+'...') or user_id.name" />
+                                                    <span class="caret"></span>
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                    <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem"><i class="fa fa-unlock-alt"/> Logout</a></li>
+                                                </ul>
+                                            </div>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- #top-box -->
+        </xpath>
+    </template>
+    <template id="website.submenu" name="Submenu">
+        <li t-if="not submenu.child_id" t-att-class="
+        'active' if submenu.url and submenu.url != '/' and request.httprequest.path == submenu.url.replace('/page/website.', '/page/') else None
+        ">
+            <a t-att-href="(website.menu_id.child_id[0] == submenu) and '/' or submenu.url" t-ignore="true" t-att-target="'_blank' if submenu.new_window else None">
+                <span t-field="submenu.name" />
+            </a>
+        </li>
+        <li t-if="submenu.child_id" t-attf-class="parent #{
+        (submenu.url and submenu.url != '/' and any([request.httprequest.path == child.url.replace('/page/website.', '/page/') for child in submenu.child_id if child.url]) or
+         (submenu.url and request.httprequest.path == submenu.url.replace('/page/website.', '/page/'))) and 'active'
+        }">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                <span t-field="submenu.name" />
+            </a>
+            <ul class="sub" role="menu">
+                <t t-foreach="submenu.child_id" t-as="submenu">
+                    <t t-call="website.submenu" />
+                </t>
+            </ul>
+        </li>
+    </template>
+    <template id="fixed_header" name="Fixed Header" inherit_id="website.layout" active="False" customize_show="True">
+        <xpath expr="//t[@t-set='html_data']" position="after">
+            <t t-set="body_classname" t-value="'o_connected_user fixed-header hidden-top' if env['ir.ui.view'].user_has_groups('base.group_user') else 'fixed-header hidden-top'" />
+        </xpath>
+    </template>
+    <template id="simple_navbar_header_1" name="Simple Header" inherit_id="website.layout" active="True" customize_show="False">
+        <xpath expr="//div[@id='wrapwrap']/header" position="attributes">
+            <attribute name="class">hidden</attribute>
+        </xpath>
+        <xpath expr="//div[@id='wrapwrap']/header" position="after">
+            <header class="header">
+                <div class="header-wrapper">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-8 col-md-2 col-lg-3 logo-box">
+                                <div class="logo">
+                                    <a href="/" class="navbar-brand logo">
+                                        <span t-field="res_company.logo" t-options="{'widget': 'image'}" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name" />
+                                    </a>
+<!--                                     <a href="/" class="navbar-brand logo">
+                                        <img src="/theme_sakya_kanak/static/src/img/logo.svg" t-att-alt="'Logo of %s' % res_company.name" t-att-title="res_company.name" />
+                                    </a> -->
+                                </div>
+                            </div>
+                            <!-- .logo-box -->
+                            <div class="col-xs-4 col-md-10 col-lg-9 right-box">
+                                <div class="right-box-wrapper">
+                                    <div class="primary">
+                                        <div class="navbar navbar-default" role="navigation">
+                                            <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".primary .navbar-collapse">
+                                                <span class="text">Menu</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                            <nav class="collapse collapsing navbar-collapse">
+                                                <ul class="nav navbar-nav navbar-center" id="top_menu">
+                                                    <t t-foreach="website.menu_id.child_id" t-as="submenu">
+                                                        <t t-call="website.submenu" />
+                                                    </t>
+                                                    <li groups="base.group_public">
+                                                        <a t-attf-href="/web/login">
+                                                            <i class="fa fa-lock"></i> Log in
+                                                        </a>
+                                                    </li>
+                                                    <t t-if="website.user_id != user_id">
+                                                        <li id="o_logout"><a t-attf-href="/web/session/logout?redirect=/" role="menuitem"><i class="fa fa-unlock-alt"/> Logout</a></li>
+                                                    </t>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                    <!-- .primary -->
+                                </div>
+                            </div>
+                            <div class="phone-active col-sm-9 col-md-9">
+                                <a href="#" class="close"><span>close</span>×</a>
+                                <span class="title">Call Us</span> <strong><span t-field="res_company.phone"/></strong>
+                            </div>
+                            <div class="search-active col-sm-9 col-md-9">
+                                <a href="#" class="close"><span>close</span>×</a>
+                                <form action="/shop" method="get" class="search-form">
+                                    <input type="text" name="search" class="search-query form-control search-string oe_search_box" placeholder="Search..." t-att-value="search" />
+                                    <button class="search-submit">
+                                        <svg x="0" y="0" width="16px" height="16px" viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+                                            <path fill="#231F20" d="M12.001,10l-0.5,0.5l-0.79-0.79c0.806-1.021,1.29-2.308,1.29-3.71c0-3.313-2.687-6-6-6C2.687,0,0,2.687,0,6
+                                            s2.687,6,6,6c1.402,0,2.688-0.484,3.71-1.29l0.79,0.79l-0.5,0.5l4,4l2-2L12.001,10z M6,10c-2.206,0-4-1.794-4-4s1.794-4,4-4
+                                            s4,1.794,4,4S8.206,10,6,10z"></path>
+                                            <image src="/theme_sakya_kanak/static/src/img/png-icons/search-icon.png" alt="" width="16" height="16" style="vertical-align: top;" />
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </xpath>
+    </template>
+</odoo>
