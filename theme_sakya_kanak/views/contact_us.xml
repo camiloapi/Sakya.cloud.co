@@ -126,12 +126,13 @@
             <label class="control-label" for="service">Services</label>
             <div>
               <select class="form-control" name="service">
-                <option value="Web Designing">Web Designing</option>
-                <option value="Odoo Developer">Odoo Developer</option>
-                <option value="Back-end Developer">Back-end Developer </option>
-                <option value="Mobile Apps">Mobile Apps</option>
-                <option value="Designing Job">Job</option>
-                <option value="Any Other">Any Other</option>
+                <option value="Factura Electrónica">Factura Electrónica</option>
+                <option value="CRM y Ventas">CRM y Ventas</option>
+                <option value="eCommerce">eCommerce</option>
+                <option value="Inventario">Inventario</option>
+                <option value="Manufactura">Manufactura</option>
+                <option value="Proyectos">Proyectos</option>
+                <option value="Punto de Venta">Punto de Venta</option>
               </select>
             </div>
           </div>
